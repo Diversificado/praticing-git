@@ -1,0 +1,1 @@
+https://www.iteramos.com/pregunta/3859/la-rama-master-y-originmaster-han-divergido-como-deshacer-las-ramas
