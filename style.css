@@ -1,8 +1,27 @@
 html {
     background-color: #000;
+}
+
+* {
+  transition: 0.8s;
+}
+
+h1,
+h2,
+p, 
+li,
+span{
     color: #fff;
 }
 
-p, li{
-    color: #fff;
+.caja-uno {
+  font-size: 40px;
+  border: 2px solid white;
+}
+
+.caja-uno:hover {
+  color: black;
+  border-radius: 60px 20px;
+  background-color: lightgrey !important;
+  transition: 0.5s;
 }
