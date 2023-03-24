@@ -39,3 +39,17 @@ span{
   border-left: 10px solid limegreen;
   background-color: aquamarine;
 }
+
+.caja-tres {
+  background-color: lightslategray;
+  color: black;
+  border: thick dotted darkslategray;
+  font-size: 48px;
+}
+
+.caja-tres:hover {
+  transition: 0.8s;
+  color: white;
+  background-color: black;
+  border-radius: 20px 30px;
+}
