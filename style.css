@@ -42,13 +42,18 @@ span{
 }
 
 .caja-tres {
-  font-size: 48px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  border: medium dotted blue;
-  color:antiquewhite;
+  background-color: lightslategray;
+  color: black;
+  border: thick dotted darkslategray;
+  font-size: 48px;
+
 }
 
 .caja-tres:hover {
   transition: 0.8s;
   border-radius: 30px 15px;
+  color: white;
+  background-color: black;
+
 }
