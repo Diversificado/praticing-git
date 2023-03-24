@@ -1,9 +1,10 @@
 html {
-    background-color: #000;
+  background-color: #000;
+  transition: 0.8s;
 }
 
 * {
-  transition: 0.8s;
+  transition: inherit;
 }
 
 h1,
@@ -38,4 +39,16 @@ span{
   border-radius: 20px 60px;
   border-left: 10px solid limegreen;
   background-color: aquamarine;
+}
+
+.caja-tres {
+  font-size: 48px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border: medium dotted blue;
+  color:antiquewhite;
+}
+
+.caja-tres:hover {
+  transition: 0.8s;
+  border-radius: 30px 15px;
 }
